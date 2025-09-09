@@ -1,65 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AMAN SAIFI - Portfolio</title>
-  <link rel="stylesheet" href="Portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Saifi | Portfolio</title>
+  <link rel="stylesheet" href="Portfolio.css" />
 </head>
 <body>
 
   <header>
-    <h1>Aman Saifi</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="hero">
+      <img src="image.jpg" alt="Aman Saifi" class="profile-pic">
+      <h1>Aman Saifi</h1>
+      <p>Computer Science Student | Web Developer </p>
+      <a href="#contact" class="btn">Let's Connect</a>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <img src="image.jpg" alt="Aman Saifi Profile Photo" width="150" height="150">
-    <p>
-      Hello, my name is Aman Saifi. I am currently pursuing a B.Tech in Computer Science at ABES Engineering College. I have a keen interest in technology, problem-solving, and building creative projects, especially in the fields of web development, Java programming, and data structures.
-    </p>
-  </section>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-container">
-      <div class="project-card">
-        <h3>Project Title</h3>
-        <p>Short description about the project.</p>
+  <main class="container">
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>Hello, I'm Aman Saifi, a B.Tech Computer Science student at ABES Engineering College. I have a strong interest in technology, problem-solving, and building creative digital solutions. I love working on web development, Java programming, and data structures, and I’m always looking for new challenges to improve my skills.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio site built using HTML and CSS to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+          <h3>Task Manager App</h3>
+          <p>A full-stack to-do list application featuring user authentication and full CRUD functionality.</p>
+        </div>
+        <div class="project">
+          <h3>Landing Page</h3>
+          <p>A responsive, modern landing page designed for a startup using HTML and CSS.</p>
+        </div>
       </div>
-      <div class="project-card">
-        <h3>Another Project</h3>
-        <p>Short description here.</p>
-      </div>
-      <!-- Add more projects as needed -->
-    </div>
-  </section>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Send</button>
-    </form>
-  </section>
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 Aman Saifi</p>
+    <p>&copy; 2025 Aman Saifi. Made with ❤️ and creativity.</p>
   </footer>
 
 </body>
