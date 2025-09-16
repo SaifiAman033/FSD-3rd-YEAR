@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 20px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+th, td {
+  border: 1px solid black;
+  padding: 3px 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+thead th {
+  font-weight: bold;
+}
+.header1, .header2, .header3 {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+.header1 {
+  font-size: 14px;
+}
+.header2 {
+  font-size: 13px;
+}
+.header3 {
+  font-size: 13px;
+  text-align: left;
+}
+.highlight-green {
+  background-color: #8dc63f;
+}
+.highlight-yellow {
+  background-color: yellow;
+}
+.session {
+  font-size: 10px;
+  font-weight: normal;
+  text-align: right;
+  padding-right: 5px;
+}
+.day-col {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  width: 20px;
+  font-weight: bold;
+  background: #f0f0f0;
+}
+.break-row {
+  text-align: center;
+  font-weight: bold;
+}
