@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    color: #333;
+    color: #0a0a0a;
     margin-bottom: 5px;
 }
 
@@ -26,17 +26,17 @@ table {
 }
 
 table th, table td {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #f6f2f2;
     padding: 8px 12px;
     text-align: left;
 }
 
 table th {
-    background: #f1f1f1;
+    background: #c2c5c8;
 }
 
 .controls button, .add-student button {
-    background: #4F8EF7;
+    background: #2769dc;
     color: #fff;
     border: none;
     margin: 5px 4px;
@@ -46,7 +46,7 @@ table th {
 }
 
 .controls button:hover, .add-student button:hover {
-    background: #346dd7;
+    background: #0bcd25;
 }
 
 .add-student input {
