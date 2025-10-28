@@ -1,4 +1,4 @@
-export default function Fruit() {
+export default function fruit() {
     return (
         <div>Fruits</div>
     );

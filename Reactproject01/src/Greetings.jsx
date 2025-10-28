@@ -1,10 +1,12 @@
 import { useState } from "react";
+
 function Greetings() {
-    const [message, setName] = useState("Hello, AMAN!");
+    const [message, setMessage] = useState("Hello, AMAN!"); 
 
     function changeMessage() {
-        setMessage("you click the button");
+        setMessage("You clicked the button");
     }
+
     return (
         <div>
             <h1>{message}</h1>  
@@ -12,3 +14,5 @@ function Greetings() {
         </div>
     );
 }
+
+export default Greetings;
